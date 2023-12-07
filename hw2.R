@@ -51,6 +51,4 @@ data_list <- lapply(file_list, function(file_path) {
 merged_data <- do.call(cbind, data_list)
 print(merged_data)
 
-接着返回命令行，输入Rscript merge_files.R ~/assignment_idaccuracy/Aminer)就好
-
-
+接着返回命令行，输入Rscript merge_files.R ~/assignment_idaccuracy/Aminer 就好
